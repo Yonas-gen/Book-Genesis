@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Genesis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+        <div class="parallax" data-speed="0.7">
+            <div class="hero">
+            <div class="wrapper" data-speed="0.9">
+                <h1 class="hero__title" data-speed="-0.6">
+                    <span>worlds Beyond!</span>Explore stories that 
+                    take you to new realms!
+                </h1>
+            </div>
+            </div>
+    
+            <img class="parallax__bg" src="images/n/Old library.jpeg" alt="" />
+            <img data-speed="0.4" class="parallax__dust" src="images/frontpage/dust.webp" alt="" />
+            <img 
+            class="parallax__foreground-back"
+            src="images/frontpage/foreground-back.webp"
+            alt=""
+            />
+            <img 
+            class="parallax__foreground-front"
+            src="images/frontpage/foreground-front.webp"
+            alt=""
+            />
+        </div>
+    <div class="all">
+        <header>
+            <a href="#" data-speed="-0.13" class="logo">Book Genesis</a>
+        </header>
+        <div class="banner">
+            <div class="content ficition active">
+                <img src="images/n/ficition-category.jpeg" alt="" class="genre">
+                <p>
+                    Step into a worlds of imagination where every page turns into an
+                    adventure. Discover captivating stories, unfogettable characters
+                    ,and thrilling plots that will transport you to realms beyond reality.
+                </p>
+                <div class="button">
+                    <a href="ficition-books.html" class="choose"><i class="fa fa-chevron-right" aria-hidden="true"></i>Choose</a>
+                </div>
+            </div>
+            <div class="content philoshophy">
+                <img src="images/n/philoshophy-category.jpeg" alt="" class="genre">
+                <p>
+                    Embark on a journey of deep thought and introspection with our
+                    philoshophical books. Explore timless ideas, challenge your 
+                    perspective, and engage with profound questions about life, 
+                    existence, and human nature.
+                </p>
+                <div class="button">
+                    <a href="philoshophy-books.html" class="choose"><i class="fa fa-chevron-right" aria-hidden="true"></i>Choose</a>
+                </div>
+            </div>
+            <div class="content scientific">
+                <img src="images/n/scientific-category.jpeg" alt="" class="genre">
+                <p>
+                    Unlock the mysteries of the universe with scientific books.
+                    Dive into groundbreaking dicoveries, explore innovative 
+                    theories, and statisfy your curiosity with knowledge that
+                    expands your understanding of the world.
+                </p>
+                <div class="button">
+                    <a href="scientific-books.html" class="choose"><i class="fa fa-chevron-right" aria-hidden="true"></i>Choose</a>
+                </div>
+            </div>
+            <div class="content self-dev">
+                <img src="images/n/self-dev-category.jpeg" alt="" class="genre">
+                <p>
+                    Transform your life with our collection of self-development books.
+                    Discover powerful strategies, gain insights for personal growth,
+                    and unlock your potential to achieve your goals and live your best life.
+                </p>
+                <div class="button">
+                    <a href="self_development_books.html" class="choose"><i class="fa fa-chevron-right" aria-hidden="true"></i>Choose</a>
+                </div>
+            </div>
+            <div class="content amharic">
+                <img src="images/n/amharic-category.jpeg" alt="" class="genre">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odio cumque fugit provident eligendi repellendus laboriosam 
+                    modi impedit, iste, neque doloribus est autem iure itaque, 
+                    quae in. Voluptas quis eius voluptates.
+                </p>
+                <div class="button">
+                    <a href="amharic-books.html" class="choose"><i class="fa fa-chevron-right" aria-hidden="true"></i>Choose</a>
+                </div>
+            </div>
+            <div class="carousel-box">
+                <div class="carousel">
+                    <div class="carousel-item" onclick="changebg('ficition-category.jpeg', 'ficition')">
+                        <img src="images/n/ficition-category.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changebg('philoshophy-category.jpeg', 'philoshophy')">
+                        <img src="images/n/philoshophy-category.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changebg('scientific-category.jpeg', 'scientific')">
+                        <img src="images/n/scientific-category.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changebg('self-dev-category.jpeg', 'self-dev')">
+                        <img src="images/n/self-dev-category.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" onclick="changebg('amharic-category.jpeg', 'amharic')">
+                        <img src="images/n/amharic-category.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <div class="option">
+                    <div class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></div>
+                    <span>Telegram</span>
+                </div>
+                <div class="option">
+                    <div class="icon"><i class="fa fa-github" aria-hidden="true"></i></div>
+                    <span>Github</span>
+                </div>
+                <div class="option">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <span>Email</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html>
